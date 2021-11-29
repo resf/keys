@@ -21,6 +21,6 @@ jobs:
           aws configure set aws_access_key_id $aws_key_id
           aws configure set aws_secret_access_key $aws_secret_access_key 
           aws configure set default.region us-east-2
-          aws s3 cp --recursive .well-known/ s3://$aws_s3_bucket/
+          aws s3 cp --recursive .well-known s3://$aws_s3_bucket/
 
 
