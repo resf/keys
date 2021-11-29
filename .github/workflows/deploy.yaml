@@ -7,7 +7,7 @@ on:
 
 jobs:
   upload:
-    runs-on: alpine:latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@master
       - name: Copy artifacts to s3
@@ -17,8 +17,7 @@ jobs:
           aws_secret_access_key: ${{ secrets.AWS_SECRET_KEY_ID }}
           aws_s3_bucket: ${{ secrets.AWS_BUCKET_NAME }}
         run: |
-          apk update && apk add --no-cache py3-pip
-          pip3 install --no-cache-dir awscli
+          sudo apt-get update && sudo apt-get -y install awscli
           aws configure set aws_access_key_id $aws_key_id
           aws configure set aws_secret_access_key $aws_secret_access_key 
           aws configure set default.region us-east-2
