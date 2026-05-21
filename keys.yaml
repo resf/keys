@@ -1,0 +1,55 @@
+keys:
+  - fingerprints:
+      - 7C8A199FCAF1AABFA57C65D62B8E0203603A83CA
+    uids:
+      - brian@resf.org
+      - brian@rockylinux.org
+
+  - fingerprints:
+      - DC826CB50BEBCEE0260135DAEE8842F529546560
+    uids:
+      - neil@resf.org
+      - neil@rockylinux.org
+
+  - fingerprints:
+      - DB1E06F887BF1BDBC7774D1AC6229FC8C50D63A0
+    uids:
+      - rfelsburg@resf.org
+      - rfelsburg@rockylinux.org
+
+  - fingerprints:
+      - 35A297E4C708AE037471CBEA0D805C70CCB3CE3A
+    uids:
+      - rlh@resf.org
+
+  - fingerprints:
+      - 14A97456D5496286A2BA393C60F842E7235F482A
+    uids:
+      - wale@rockylinux.org
+
+  - fingerprints:
+      - C8FC34731BE024735E82575AA5D31C07717E7716
+    uids:
+      - mustafa@rockylinux.org
+
+  - fingerprints:
+      - E422BFF7090AD37ABE3637D34DD4292CE4AC6B7A
+    uids:
+      - mkinder@rockylinux.org
+
+  - fingerprints:
+      - BFC3D8F20D15F4FD46281D7FAA650F52D6C094FA
+      - 7051C470A929F454CEBE37B715AF5DAC6D745A60
+      - 091A44047C3D8B7A331F5E185489E42BBBE2C108
+    uids:
+      - infrastructure@rockylinux.org
+
+  - fingerprints:
+      - 2CA999800D11C5946C9DBFEE52364D7BBCEB35B8
+    uids:
+      - tcooper@rockylinux.org
+
+  - fingerprints:
+      - CC5976F33BCA5502837DBCB859F4A40E6CAB25F2
+    uids:
+      - sherif@rockylinux.org
