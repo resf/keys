@@ -53,3 +53,9 @@ keys:
       - CC5976F33BCA5502837DBCB859F4A40E6CAB25F2
     uids:
       - sherif@rockylinux.org
+
+  - fingerprints:
+      - F4C0847D7089F5B9B827E66F327541AF5CE5F44B
+    uids:
+      - security@resf.org
+      - security@rockylinux.org
