@@ -6,12 +6,6 @@ keys:
       - brian@rockylinux.org
 
   - fingerprints:
-      - DC826CB50BEBCEE0260135DAEE8842F529546560
-    uids:
-      - neil@resf.org
-      - neil@rockylinux.org
-
-  - fingerprints:
       - DB1E06F887BF1BDBC7774D1AC6229FC8C50D63A0
     uids:
       - rfelsburg@resf.org
